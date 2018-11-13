@@ -83,7 +83,7 @@ function omit(object, excluded) {
 
 // emoji stuff
 
-const getEmoteURL = (emote) => `${location.protocol}//cdn.discordapp.com/emojis/${emote.id}.` + (emote.anim ? 'gif' : 'png');
+const getEmoteURL = (emote) => `${location.protocol}//cdn.discordapp.com/emojis/${emote.id}.` + (emote.animated ? 'gif' : 'png');
 
 function getEmojiURL(surrogate) {
   if (['™', '©', '®'].indexOf(surrogate) > -1) {
