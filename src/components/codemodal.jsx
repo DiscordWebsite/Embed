@@ -14,13 +14,14 @@ import restcord from '../snippets/restcord';
 import eris from '../snippets/eris';
 import discordrb from '../snippets/discordrb';
 import jda from '../snippets/jda';
-
+import nyxx from '../snippets/nyxx';
 
 const libraries = {
   'dotnet_discord-net': discordnet,
   'dotnet_dsharpplus': dsharpplus,
   'dotnet_dsharpplusEmbedbuilder': dsharpplusEmbedbuilder,
   'python_discord-py': discordpy,
+  'dart_nyxx': nyxx,
   'js_discordie': discordie,
   'js_discordjs': discordjs,
   'js_discordio': discordio,
